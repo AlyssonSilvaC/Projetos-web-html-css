@@ -1,0 +1,5 @@
+use tudo que vocé aprendeu até agora
+desenvolva um site usando titulos, parágrafos, link imagens e listas.
+
+dica: crie o site usando tabelas, não é o recomendado
+mas vamos utilizar o que aprendemos até o momento

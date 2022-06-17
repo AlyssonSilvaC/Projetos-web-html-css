@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>aula 4</title>
+</head>
+    <body>
+
+        <!-- tag de tabelas -->
+
+        <table border="2" width="100%"> <!-- para criar uma tabela será necessario 3 tags (table, tr, td)-->
+
+            <!-- bordes numero de pixels da borda -->
+
+            <h2>Produtos</h2>
+
+            <tr> <!-- tr = linha da tabela, table row-->
+
+                <th>Codigo</th> <!-- th = cabeçalho da tabela, table head-->
+                <th>produto</th>
+                <th>preço</th>
+            
+            </tr>
+
+            <tr>
+
+                <td>001</td><!--td = dados da tabela, table data-->
+                <td>computador</td>
+                <td>1000,00</td>
+
+            </tr>
+
+            <tr>
+
+                <td>002</td>
+                <td>Smartphone</td>
+                <td>1000,00</td>
+
+            </tr>
+
+            <tr>
+            
+                <!-- rowspan = passa a ocupar o espaço de duas linhas ou mais-->
+                <td rowspan="2">Desconto</td>
+
+                <!--colspan = extenção da coluna, ou seja, ela vai passar a ocupar todo espaço em branco-->
+                <td colspan="2">Cumpon1 R$ 20,00</td>
+                
+            
+            </tr>
+
+
+            <tr>
+                
+                <td colspan="2">Cumpon2 R$ 10,00</td>
+                
+            </tr>
+
+            <tr>
+                <td>total:</td>
+                <td colspan="2">R$ 1970,00</td>
+            </tr>
+
+        </table>
+
+        <!-- Dentro das tabelas podemos colocar imagens, links etc...-->
+        
+    </body>
+</html>

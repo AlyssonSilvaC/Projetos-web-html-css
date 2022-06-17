@@ -1,0 +1,59 @@
+﻿body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*utilize regra de 3 simples para resolver as equações e fazer um layout liquido*/
+
+#Container{
+    width: 85%; /*720px -> 85%*/
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+
+}
+
+#marca{
+    height: 100px;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+#conteudo{
+    width: 75%; /* 520 X 100 = 52000/700 = 74,28%*/
+    float: right;
+}
+
+#navegacao{
+    width: 23%; /*180 X 100 = 18000/700 = 25,71*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+
+#conteudo-principal{
+    width: 64%;   /*320+180 = 500, 320x100 = 32000/500 = 64%*/
+    float: left;
+}
+
+#conteudo-secundario{
+    width: 33%; /*180X100 = 18000/500 = 36%*/
+    float:right;
+    background: #d1d1d1;
+}
+
+#conteudo-secundario h2, #conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+

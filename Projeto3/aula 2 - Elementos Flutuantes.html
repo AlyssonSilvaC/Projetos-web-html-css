@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    
+    <title>aula 2</title>
+
+
+
+    <style type="text/css">
+
+    .conteudo{
+        background: rgb(43, 255, 0);
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        float:right;
+        
+        
+    }
+
+    /*float: faz os elementos flutuar nas direções esquerda ou direita. 
+        é bom lembrar que caso um conteúdo não tenha espaço para flutuar em uma direção 
+        ele fica preso em outro espaço.
+     */
+
+    .conteudo1{
+        background: rgb(255, 0, 0);
+        border: 2px solid red;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+
+
+    
+    }
+
+    .limpar{
+        clear: both; /*Limpar o fluxo Flutuante*/
+    }
+
+    #principal{
+        background: green;
+        
+    }
+    
+
+    </style>
+
+</head>
+<body>
+    <div id="principal">
+        <div class="conteudo">
+            Conteúdo 1
+        </div>
+
+        <div class="conteudo">
+            Conteúdo 2
+        </div>
+
+        <div class="conteudo">
+            Conteúdo 3
+        </div>
+
+        <div class="limpar"></div> <!-- Se não criarmos uma nova div e limpar o conteudo a div não vai expandir -->
+
+        <p class="limpar">
+            Porque Deus amou o mundo de tal maneira que deu o seu Filho 
+            unigênito, para que todo aquele que n'Ele crê não pereça, 
+            mas tenha a vida eterna. Jesus Cristo Bíblia 
+            Sagrada. João 3:16.
+        </p>
+
+    </div>
+    
+</body>
+</html>

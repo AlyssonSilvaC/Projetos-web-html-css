@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> aula 2</title>
+
+    <!-- Quando trabalhamos com folhas de estilo em cascata, usaremos o conceito de herança -->
+        <!-- 
+            Especificidade:
+            seletores mais importantes que outros são executados primeiros
+
+            seletores iguais, o ultimo é prioridade, entretanto se usarmos a palavra !important
+            o seletor que está acima passa a ser prioridade.
+
+            Se um seletor for mais especifico que outro
+            regra a mais especifica será aplicada
+            (terá precedência sobre regras gerais).
+         -->
+
+         <style>
+             #pagina p{
+                 color: red !important; /*deve ser usado com cautela*/
+             }
+
+             #pagina p{
+                 color: rgb(34, 0, 255);
+
+             }
+             /*-----------------------------------------------------*/
+
+             h2{ /*exemplo de um seletor especifico*/
+                 color: blue;
+             }
+
+             h2.verde{/*exemplo de um seletor especifico*/
+                 color: green
+             } /*se usarmos id, ele é´mais especifico que uma classe*/
+
+
+         </style>
+
+</head>
+<body>
+
+    <div id="pagina">
+        <h2>
+             alysson cassimiro da silva
+
+        </h2>
+
+        <h2 class="verde">
+            alysson cassimiro
+            <p>kkkkkkkkk</p>
+        </h2>
+        
+        <p>
+            bagulho doido
+        </p>
+
+        <p>
+            bagulho doido
+        </p>
+        
+    </div>
+
+    
+</body>
+</html>

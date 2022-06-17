@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title> aula 5</title>
+</head>
+<body>
+    
+    <!--formularios-->
+   
+    <h2>Login</h2>
+    
+    <form action="processo.php"> <!-- ao definir o action poderemos enviar os dados para outras páginas 
+        usando o name ele pega esses dados e salvar em banco de dados, verificar se o usuario está autenticado
+        etc...
+    -->
+
+        login:
+        <br>
+        <input type="text" name="Login"> <!--name é usado para recuperar os dados usando uma linguagem de programação--> <br>
+        
+        Senha:
+        <br>
+        <input type="password" name="Senha">
+        <br>
+        
+        <input type="button" value="Entrar"> 
+
+    </form>
+
+    <form action="index - Cópia.html">
+        <h2>Cadastra-se</h2>
+            
+        Login:<br>
+        <input type="text" name="Login">
+        <br>
+        
+        Senha:<br>
+        <input type="password" name="Senha">
+        <br>
+
+        sexo:
+        <br>
+
+        <input type="radio" name="sexo" value="M"> Masculino
+        <br>
+        
+        <input type="radio" name="sexo" value="F"> Feminino
+        <br><br>
+
+        Interesses<br>
+
+        <input type="checkbox" name="interesses" value="futebol"> Futebol
+        <br>
+        <input type="checkbox" name="interesses" value="moda"> moda 
+        <br>
+        
+
+        Estado
+        <br>
+        
+        <select name="Estado">
+
+            <option value="sp"> SP </option>
+            <option value="rj"> RJ </option>
+            <option value="pe"> PE </option>
+
+        </select> <br><br>
+
+
+        Observação:
+        <br>
+
+        <textarea></textarea><br>
+    
+    
+        <input type="submit" value="cadastro"> <!-- value para mudar o nome do button, submit que dizer enviar dados--> <br>
+
+    </form>
+
+
+</body>
+</html>

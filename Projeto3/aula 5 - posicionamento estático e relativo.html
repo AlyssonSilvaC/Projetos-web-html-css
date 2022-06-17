@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>aula 5</title>
+
+    <style type="text/css">
+
+        body{
+            background: rgb(85, 85, 252);
+        }
+
+        h1{
+
+        }
+
+        p{
+            width: 300px;
+        }
+
+        #container{
+            background: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            
+        }
+
+        /*Por padrão os elemtos ja vem estaticos*/
+
+        .relative{
+
+            /*O posicionamento relativo tem o seu aliamento baseado na posição inicial do elemento*/
+            
+            position:relative; /*quando usamos a propriedade relativa precisamos usar propriedades de deslocamento:
+            top, right, bottom e left    
+            */
+            top: -20px; /*vai ser alinhado baseado na sua posição anterior, ou seja, sua posição padrão no fluxo normal*/
+            left: 500px; /*mover 80px a partir da sua posição inicial esquerda*/ 
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="container">
+        
+        <h1>É a volta do Senhor</h1>
+
+        <p>
+
+            Os olhos do Senhor estão sobre os justos, e os seus ouvidos atentos ao seu clamor.
+
+            Salmos 34:15
+
+        </p>
+
+        <p class="relative">
+
+            Os olhos do Senhor estão sobre os justos, e os seus ouvidos atentos ao seu clamor.
+
+            Salmos 34:15
+
+        </p>
+
+        <p>
+
+            Os olhos do Senhor estão sobre os justos, e os seus ouvidos atentos ao seu clamor.
+
+            Salmos 34:15
+
+        </p>
+
+        
+
+    </div>
+
+
+</body>
+</html>
